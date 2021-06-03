@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font: normal 16px/1.2 'Raleway', sans-serif;
+}
+
+*, *::before, *::after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+.page-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: auto 0
+}
+
+/*Main*/
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.box-item {
+    width: 350px;
+    border: 1px solid black;
+    padding-bottom: 20px;
+}
+
+.featureIcon {
+    text-align: end;
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    height: 2em;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 50%;
+    width: 200px;
+}
+
+.fullName {
+    text-align-last: center;
+    font-size: 2.5em;
+}
+
+.employeeBio {
+    margin: 20px;
+    padding-bottom: 30px;
+    font-size: 1.5em;
+}
+
+#roles {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.2em;
+}
+
+.roleDetails {
+    color: white;
+    margin: 0;
+}
